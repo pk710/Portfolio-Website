@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { pk, menu, close } from "../assets";
+import { pk, menu, close, github, linkedinicon } from "../assets"; // Import GitHub and LinkedIn icons
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -50,6 +50,7 @@ const Navbar = () => {
             </p>
           </Link>
 
+          {/* Download Resume Button */}
           <a
             href="Prem Krishna Shankar Resume.pdf"
             download
@@ -59,6 +60,34 @@ const Navbar = () => {
               Download Resume
             </button>
           </a>
+
+          {/* GitHub and LinkedIn Links */}
+          <div className="flex items-center gap-4 ml-4">
+            <a
+              href="https://github.com/pk710"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white"
+            >
+              <img
+                src={github}
+                alt="GitHub"
+                className="w-6 h-6 object-contain hover:opacity-80"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/prem-krishna-shankar/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white"
+            >
+              <img
+                src={linkedinicon}
+                alt="LinkedIn"
+                className="w-6 h-6 object-contain hover:opacity-80"
+              />
+            </a>
+          </div>
         </div>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
