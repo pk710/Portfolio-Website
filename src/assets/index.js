@@ -36,6 +36,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import tcs from "./company/tcs.png";
+import yef from "./company/yef.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -81,4 +82,5 @@ export {
   jobit,
   tripguide,
   tcs,
+  yef,
 };

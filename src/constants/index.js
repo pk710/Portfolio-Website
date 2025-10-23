@@ -17,6 +17,7 @@ import {
   docker,
   meta,
   tcs,
+  yef,
   c,
   starbucks,
   tesla,
@@ -112,30 +113,30 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Assistant Systems Engineer - Trainee",
-    company_name: "Tata Consultancy Services",
-    icon: tcs,
-    iconBg: "#383E56",
-    date: "August 2021 - July 2022",
-    points: [
-      "Monitored server disk space and resolved library errors using Remote Desktop Protocol.",
-      "Coordinated with teams during power outages to safely shut down and restart devices.",
-      "Assisted in server maintenance tasks, ensuring optimal performance and availability.",
-      "Won Best team Award for 100% customer satisfaction and effective power outage management",
-    ],
-  },
-  {
     title: "Assistant Systems Engineer",
     company_name: "Tata Consultancy Services",
     icon: tcs,
     iconBg: "#383E56",
-    date: "August 2022 - July 2023",
+    date: "August 2021 - July 2023",
     points: [
-      "Managed client servers, reducing downtime by 50% and boosting client satisfaction.",
-      "Improved job scheduling and monitoring with Control-M software, ensuring seamless operations.",
-      "Implemented solutions to resolve library error messages swiftly, maintaining operating efficiency.",
-      "Achieved 100% satisfaction rate during client site power outages in August 2022.",
-    ],
+        "Automated server maintenance with Bash and Python, reducing manual effort by 40% and downtime by 20%.",
+        "Optimized distributed Control-M workflows orchestrating 10,000+ daily jobs, boosting scheduling efficiency and system uptime from 80% to 90%, ensuring high availability of backend services.",
+        "Engineered Python automation scripts for change request processing, saving 30+ minutes per request.",
+        "Collaborated with cross-functional teams to ensure 100% service availability during power outages, reducing downtime by 50%.",
+        "Led recovery during critical failures, earning “Best Team Award” for exceptional performance in system recovery."
+      ],
+  },
+  {
+    title: "Software Development Intern",
+    company_name: "Youth Empowerment Foundation",
+    icon: yef,
+    iconBg: "#383E56",
+    date: "July 2020 - August 2020",
+    points: [
+        "Developed a full-stack donation platform using JavaScript and Node.js to support COVID-19 relief efforts.",
+        "Implemented a system to collect and manage beneficiary data using Python and MS Excel, helping the organization efficiently track and organize information of 100+ victims.",
+        "Designed digital posters and presentations using HTML, CSS, and Canva to promote campaigns and raise awareness for COVID-19 relief efforts.",
+      ],
   },
 ];
 
