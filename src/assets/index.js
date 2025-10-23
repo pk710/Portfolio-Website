@@ -28,8 +28,9 @@ import c from "./tech/c.svg";
 import python from "./tech/python.png";
 import selenium from "./tech/selenium.svg";
 import awsec2 from "./tech/awsec2.svg";
-import flask from "./tech/flask.svg";
+import flask from "./tech/flask.png";
 import mysql from "./tech/mysql.svg";
+import java from "./tech/java.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -55,6 +56,7 @@ export {
   web,
   github,
   python,
+  java,
   menu,
   mysql,
   close,

@@ -16,6 +16,7 @@ import {
   figma,
   docker,
   meta,
+  java,
   tcs,
   yef,
   c,
@@ -58,6 +59,14 @@ const technologies = [
     icon: c,
   },
   {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -82,16 +91,12 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Python",
-    icon: python,
-  },
-  {
     name: "Seleniumn",
     icon: selenium,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Flask",
+    icon: flask,
   },
   {
     name: "git",
@@ -105,10 +110,7 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-  {
-    name: "AWS EC2",
-    icon: awsec2,
-  },
+  
 ];
 
 const experiences = [
